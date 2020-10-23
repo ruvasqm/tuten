@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\Yarn\bin\;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\juanm\AppData\Local\Microsoft\WindowsApps;C:\Program Files\GitHub CLI\;C:\Users\juanm\AppData\Local\Yarn\bin;C:\Users\juanm\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: EISDIR: illegal operation on a directory, symlink 'G:\codo\tuten\problema2' -> 'G:\codo\tuten\node_modules\problema2'
+
+npm manifest: 
+  {
+    "name": "tuten",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Ruben Vasquez <ruvasqm@gmail.com>",
+    "license": "MIT",
+    "workspaces": [
+      "problema2/"
+    ],
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,11 @@
+{
+  "name": "tuten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruben Vasquez <ruvasqm@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "problema2/"
+  ],
+  "private": true
+}
