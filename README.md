@@ -8,9 +8,12 @@ Descripción de proceso para crear applicacion con Java8/PostgreSQL/React
 
 Servicio Rest de conversión de hora a UTC
 
+Link: <https://shrouded-fjord-13348.herokuapp.com>
+
 ### Decisiones de diseño
 
 - Se escogió node/express en vez de Java8 para más velocidad de prototipado
+- Uso de regex para verificación en el cliente
 - Deploy en heroku
 
 ### Mejoras posibles
@@ -21,7 +24,12 @@ Servicio Rest de conversión de hora a UTC
 
 ## Problema 3
 
-React WebApp para consumir API de tuten (user~login, user~bookings)
+React WebApp para consumir API de tuten (user/login, user/bookings)
+
+Link: <https://ancient-dawn-52186.herokuapp.com/>
+
+user: testapis@tuten.cl
+password: 1234
 
 ### Decisiones de diseño
 
